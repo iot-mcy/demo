@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+
+person:
+  name: zhangsan
+  age: 18
+  maps: {k1: key1, k2: key2}
+  lists:
+    - pingguo
+    - putao
+  dog:
+    name: xiaoji
+

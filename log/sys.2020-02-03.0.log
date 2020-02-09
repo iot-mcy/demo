@@ -1,0 +1,351 @@
+2020-02-03 10:19:58,931 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:19:58,937 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:19:58,938 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:20:00,998 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 2.604 seconds (JVM running for 4.629)
+2020-02-03 10:21:52,912 INFO (UserController.java:33)- UserController : 1006
+2020-02-03 10:21:53,138 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, username, email, `password`, create_time from user where id = ? 
+2020-02-03 10:21:53,160 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1006(Integer)
+2020-02-03 10:21:53,177 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-03 10:21:53,234 INFO (UserController.java:35)- UserController : UserVO(id=1006, username=老王3, email=lw8899@iot.com, password=123456, createTime=Mon Dec 23 00:44:10 CST 2019)
+2020-02-03 10:28:54,807 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, username, email, `password`, create_time from user 
+2020-02-03 10:28:54,808 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-03 10:28:54,809 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-02-03 10:28:54,815 INFO (UserController.java:42)- UserController : [UserVO(id=1000, username=mcy, email=mcy@id.com, password=123456, createTime=Sun Jul 01 00:27:53 CST 2018), UserVO(id=1002, username=张三, email=zhangsan@qq.com, password=123457, createTime=Mon Jul 09 00:57:31 CST 2018), UserVO(id=1004, username=老王, email=lw@id.com, password=123456, createTime=Sun Dec 01 03:50:10 CST 2019), UserVO(id=1006, username=老王3, email=lw8899@iot.com, password=123456, createTime=Mon Dec 23 00:44:10 CST 2019), UserVO(id=1008, username=王老虎, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:31:17 CST 2019), UserVO(id=1010, username=王老虎2, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:36:22 CST 2019), UserVO(id=1011, username=王老虎2, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:45:50 CST 2019), UserVO(id=1012, username=王老虎2, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:49:13 CST 2019)]
+2020-02-03 10:35:22,688 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:35:22,688 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:35:22,689 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:35:23,233 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.581 seconds (JVM running for 926.864)
+2020-02-03 10:35:47,278 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:35:47,278 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:35:47,278 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:35:47,744 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.489 seconds (JVM running for 951.374)
+2020-02-03 10:36:56,979 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, username, email, `password`, create_time from user 
+2020-02-03 10:36:56,980 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-03 10:36:56,982 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-02-03 10:36:56,994 INFO (UserController.java:42)- UserController : [UserVO(id=1000, username=mcy, email=mcy@id.com, password=123456, createTime=Sun Jul 01 00:27:53 CST 2018), UserVO(id=1002, username=张三, email=zhangsan@qq.com, password=123457, createTime=Mon Jul 09 00:57:31 CST 2018), UserVO(id=1004, username=老王, email=lw@id.com, password=123456, createTime=Sun Dec 01 03:50:10 CST 2019), UserVO(id=1006, username=老王3, email=lw8899@iot.com, password=123456, createTime=Mon Dec 23 00:44:10 CST 2019), UserVO(id=1008, username=王老虎, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:31:17 CST 2019), UserVO(id=1010, username=王老虎2, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:36:22 CST 2019), UserVO(id=1011, username=王老虎2, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:45:50 CST 2019), UserVO(id=1012, username=王老虎2, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:49:13 CST 2019)]
+2020-02-03 10:37:11,638 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, username, email, `password`, create_time from user 
+2020-02-03 10:37:11,638 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-03 10:37:11,641 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-02-03 10:37:28,001 INFO (UserController.java:42)- UserController : [UserVO(id=1000, username=mcy, email=mcy@id.com, password=123456, createTime=Sun Jul 01 00:27:53 CST 2018), UserVO(id=1002, username=张三, email=zhangsan@qq.com, password=123457, createTime=Mon Jul 09 00:57:31 CST 2018), UserVO(id=1004, username=老王, email=lw@id.com, password=123456, createTime=Sun Dec 01 03:50:10 CST 2019), UserVO(id=1006, username=老王3, email=lw8899@iot.com, password=123456, createTime=Mon Dec 23 00:44:10 CST 2019), UserVO(id=1008, username=王老虎, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:31:17 CST 2019), UserVO(id=1010, username=王老虎2, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:36:22 CST 2019), UserVO(id=1011, username=王老虎2, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:45:50 CST 2019), UserVO(id=1012, username=王老虎2, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:49:13 CST 2019)]
+2020-02-03 10:37:55,442 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:37:55,442 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:37:55,443 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:37:56,049 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.635 seconds (JVM running for 1079.679)
+2020-02-03 10:37:58,874 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:37:58,874 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:37:58,874 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:37:59,308 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.459 seconds (JVM running for 1082.938)
+2020-02-03 10:38:04,243 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:38:04,243 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:38:04,243 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:38:06,046 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:38:06,046 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:38:06,046 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:38:06,622 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.613 seconds (JVM running for 1090.253)
+2020-02-03 10:38:11,616 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:38:11,617 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:38:11,617 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:38:15,134 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:38:15,134 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:38:15,134 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:38:15,585 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.486 seconds (JVM running for 1099.216)
+2020-02-03 10:38:26,575 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:38:26,576 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:38:26,576 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:38:27,172 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.629 seconds (JVM running for 1110.803)
+2020-02-03 10:38:30,016 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:38:30,016 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:38:30,016 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:38:30,411 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.417 seconds (JVM running for 1114.042)
+2020-02-03 10:38:42,349 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:38:42,349 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:38:42,349 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:38:42,812 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.487 seconds (JVM running for 1126.442)
+2020-02-03 10:39:18,779 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, username, email, `password`, create_time from user 
+2020-02-03 10:39:18,780 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-03 10:39:18,782 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-02-03 10:39:18,795 INFO (UserController.java:42)- UserController : [UserVO(id=1000, username=mcy, email=mcy@id.com, password=123456, createTime=Sun Jul 01 00:27:53 CST 2018), UserVO(id=1002, username=张三, email=zhangsan@qq.com, password=123457, createTime=Mon Jul 09 00:57:31 CST 2018), UserVO(id=1004, username=老王, email=lw@id.com, password=123456, createTime=Sun Dec 01 03:50:10 CST 2019), UserVO(id=1006, username=老王3, email=lw8899@iot.com, password=123456, createTime=Mon Dec 23 00:44:10 CST 2019), UserVO(id=1008, username=王老虎, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:31:17 CST 2019), UserVO(id=1010, username=王老虎2, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:36:22 CST 2019), UserVO(id=1011, username=王老虎2, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:45:50 CST 2019), UserVO(id=1012, username=王老虎2, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:49:13 CST 2019)]
+2020-02-03 10:40:22,208 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:40:22,209 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:40:22,209 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:40:22,737 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.565 seconds (JVM running for 1226.367)
+2020-02-03 10:41:03,680 INFO (UserController.java:48)- UserController : 1009
+2020-02-03 10:41:03,684 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: delete from user where id = ? 
+2020-02-03 10:41:03,684 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1009(Integer)
+2020-02-03 10:41:03,685 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-02-03 10:42:52,191 INFO (UserController.java:33)- UserController : 1001
+2020-02-03 10:42:52,191 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, username, email, `password`, create_time from user where id = ? 
+2020-02-03 10:42:52,192 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1001(Integer)
+2020-02-03 10:42:52,193 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-02-03 10:43:15,244 INFO (UserController.java:33)- UserController : 1000
+2020-02-03 10:43:15,244 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, username, email, `password`, create_time from user where id = ? 
+2020-02-03 10:43:15,245 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1000(Integer)
+2020-02-03 10:43:15,245 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-03 10:43:15,256 INFO (UserController.java:35)- UserController : UserVO(id=1000, username=mcy, email=mcy@id.com, password=123456, createTime=Sun Jul 01 00:27:53 CST 2018)
+2020-02-03 10:44:10,835 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:44:10,836 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:44:10,836 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:44:11,320 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.51 seconds (JVM running for 1454.951)
+2020-02-03 10:44:16,408 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:44:16,409 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:44:16,409 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:44:49,343 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:44:49,343 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:44:49,343 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:44:49,959 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.648 seconds (JVM running for 1493.589)
+2020-02-03 10:44:55,887 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:44:55,887 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:44:55,887 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:44:56,326 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.462 seconds (JVM running for 1499.957)
+2020-02-03 10:45:04,251 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:45:04,251 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:45:04,252 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:45:04,775 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.552 seconds (JVM running for 1508.406)
+2020-02-03 10:45:32,612 INFO (UserController.java:33)- UserController : 1001
+2020-02-03 10:45:32,616 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, username, email, `password`, create_time from user where id = ? 
+2020-02-03 10:45:32,616 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1001(Integer)
+2020-02-03 10:45:32,617 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-02-03 10:46:04,121 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:46:04,121 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:46:04,121 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:46:04,609 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.51 seconds (JVM running for 1568.24)
+2020-02-03 10:46:12,571 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:46:12,571 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:46:12,571 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:46:13,037 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.498 seconds (JVM running for 1576.668)
+2020-02-03 10:46:21,920 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:46:21,920 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:46:21,920 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:46:22,536 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.644 seconds (JVM running for 1586.167)
+2020-02-03 10:46:34,510 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:46:34,510 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:46:34,510 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:46:35,050 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.569 seconds (JVM running for 1598.681)
+2020-02-03 10:46:37,930 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:46:37,930 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:46:37,930 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:46:38,324 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.415 seconds (JVM running for 1601.954)
+2020-02-03 10:47:22,363 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:47:22,364 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:47:22,364 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:47:46,299 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:47:46,299 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:47:46,300 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:47:46,749 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.484 seconds (JVM running for 1670.38)
+2020-02-03 10:47:48,625 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:47:48,625 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:47:48,625 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:47:49,168 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.57 seconds (JVM running for 1672.799)
+2020-02-03 10:47:53,044 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:47:53,044 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:47:53,044 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:48:01,893 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:48:01,893 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:48:01,893 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:48:03,678 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:48:03,679 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:48:03,679 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:48:04,279 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.623 seconds (JVM running for 1687.91)
+2020-02-03 10:48:06,168 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:48:06,168 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:48:06,168 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:48:06,649 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.51 seconds (JVM running for 1690.28)
+2020-02-03 10:48:11,558 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:48:11,558 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:48:11,558 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:48:11,992 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.46 seconds (JVM running for 1695.623)
+2020-02-03 10:48:20,871 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:48:20,871 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:48:20,871 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:48:21,295 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.451 seconds (JVM running for 1704.926)
+2020-02-03 10:48:39,445 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:48:39,445 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:48:39,445 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:48:39,865 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.441 seconds (JVM running for 1723.495)
+2020-02-03 10:48:52,855 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 10:48:52,855 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 10:48:52,855 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 10:48:53,288 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.466 seconds (JVM running for 1736.919)
+2020-02-03 10:49:55,095 INFO (UserController.java:32)- UserController : 1001
+2020-02-03 10:49:55,099 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, username, email, `password`, create_time from user where id = ? 
+2020-02-03 10:49:55,099 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1001(Integer)
+2020-02-03 10:49:55,100 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-02-03 11:00:06,714 INFO (UserController.java:32)- UserController : 1002
+2020-02-03 11:00:06,715 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, username, email, `password`, create_time from user where id = ? 
+2020-02-03 11:00:06,715 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1002(Integer)
+2020-02-03 11:00:06,716 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-03 11:00:11,341 INFO (UserController.java:35)- UserController : UserVO(id=1002, username=张三, email=zhangsan@qq.com, password=123457, createTime=Mon Jul 09 00:57:31 CST 2018)
+2020-02-03 11:01:29,998 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, username, email, `password`, create_time from user 
+2020-02-03 11:01:29,998 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-03 11:01:29,999 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-02-03 11:01:30,005 INFO (UserController.java:45)- UserController : [UserVO(id=1000, username=mcy, email=mcy@id.com, password=123456, createTime=Sun Jul 01 00:27:53 CST 2018), UserVO(id=1002, username=张三, email=zhangsan@qq.com, password=123457, createTime=Mon Jul 09 00:57:31 CST 2018), UserVO(id=1004, username=老王, email=lw@id.com, password=123456, createTime=Sun Dec 01 03:50:10 CST 2019), UserVO(id=1006, username=老王3, email=lw8899@iot.com, password=123456, createTime=Mon Dec 23 00:44:10 CST 2019), UserVO(id=1008, username=王老虎, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:31:17 CST 2019), UserVO(id=1010, username=王老虎2, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:36:22 CST 2019), UserVO(id=1011, username=王老虎2, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:45:50 CST 2019), UserVO(id=1012, username=王老虎2, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:49:13 CST 2019)]
+2020-02-03 11:02:31,968 INFO (UserController.java:51)- UserController : 1009
+2020-02-03 11:02:31,968 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: delete from user where id = ? 
+2020-02-03 11:02:31,969 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1009(Integer)
+2020-02-03 11:02:31,969 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-02-03 11:03:41,137 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 11:03:41,138 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 11:03:41,138 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 11:03:41,713 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.601 seconds (JVM running for 2625.344)
+2020-02-03 11:03:50,601 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 11:03:50,601 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 11:03:50,601 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 11:03:51,181 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.61 seconds (JVM running for 2634.811)
+2020-02-03 11:04:03,143 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 11:04:03,144 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 11:04:03,144 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 11:04:03,744 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.631 seconds (JVM running for 2647.375)
+2020-02-03 11:04:06,665 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 11:04:06,665 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 11:04:06,665 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 11:04:07,064 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.421 seconds (JVM running for 2650.695)
+2020-02-03 11:04:20,836 INFO (UserController.java:51)- UserController : 1009
+2020-02-03 11:04:20,841 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: delete from user where id = ? 
+2020-02-03 11:04:20,841 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1009(Integer)
+2020-02-03 11:04:20,842 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-02-03 11:07:09,708 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 11:07:09,708 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 11:07:09,708 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 11:07:10,168 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.483 seconds (JVM running for 2833.799)
+2020-02-03 11:07:23,083 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 11:07:23,084 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 11:07:23,084 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 11:07:23,618 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.563 seconds (JVM running for 2847.246)
+2020-02-03 11:12:50,221 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5048 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 11:12:50,223 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 11:12:50,224 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 11:12:52,004 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 2.372 seconds (JVM running for 3.629)
+2020-02-03 11:12:59,300 INFO (UserController.java:51)- UserController : 1009
+2020-02-03 11:12:59,405 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: delete from user where id = ? 
+2020-02-03 11:12:59,422 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1009(Integer)
+2020-02-03 11:12:59,423 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-02-03 11:13:04,094 INFO (UserController.java:58)- UserController : UserVO(id=1006, username=null, email=lw8888@iot.com, password=null, createTime=null)
+2020-02-03 11:13:13,509 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: update user SET email = ? where id = ? 
+2020-02-03 11:13:13,510 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: lw8888@iot.com(String), 1006(Integer)
+2020-02-03 11:13:13,573 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-02-03 11:23:18,348 INFO (UserController.java:32)- UserController : 1002
+2020-02-03 11:23:18,350 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, username, email, `password`, create_time from user where id = ? 
+2020-02-03 11:23:18,351 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1002(Integer)
+2020-02-03 11:23:18,367 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-03 11:23:18,374 INFO (UserController.java:35)- UserController : UserVO(id=1002, username=张三, email=zhangsan@qq.com, password=123457, createTime=Mon Jul 09 00:57:31 CST 2018)
+2020-02-03 11:48:22,198 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5048 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 11:48:22,198 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 11:48:22,198 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 11:48:22,685 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.514 seconds (JVM running for 2134.31)
+2020-02-03 11:49:26,993 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5048 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 11:49:26,993 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 11:49:26,994 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 11:49:27,590 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.632 seconds (JVM running for 2199.215)
+2020-02-03 11:49:32,556 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 5048 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 11:49:32,556 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 11:49:32,556 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 11:49:33,136 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.616 seconds (JVM running for 2204.762)
+2020-02-03 11:49:47,762 INFO (UserController.java:25)- UserController : UserVO(id=0, username=王老虎4, email=wlh@iot.com, password=123456, createTime=null)
+2020-02-03 11:49:47,763 INFO (UserServiceImpl.java:27)- UserServiceImpl
+2020-02-03 11:49:47,778 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: insert into user ( username, email, `password` ) values ( ?, ?, ? ) 
+2020-02-03 11:49:47,779 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 王老虎4(String), wlh@iot.com(String), 123456(String)
+2020-02-03 11:49:47,795 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-02-03 11:49:47,799 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, username, email, `password`, create_time from user where id = ? 
+2020-02-03 11:49:47,800 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1013(Integer)
+2020-02-03 11:49:47,802 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-03 14:15:29,736 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 15564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 14:15:29,738 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 14:15:29,738 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 14:15:31,423 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 2.234 seconds (JVM running for 3.477)
+2020-02-03 14:16:40,729 INFO (UserController.java:32)- UserController : 1002
+2020-02-03 14:16:40,850 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, username, email, `password`, create_time from user where id = ? 
+2020-02-03 14:16:40,880 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1002(Integer)
+2020-02-03 14:16:40,896 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-03 14:16:40,960 INFO (UserController.java:35)- UserController : UserVO(id=1002, username=张三, email=zhangsan@qq.com, password=123457, createTime=Mon Jul 09 00:57:31 CST 2018)
+2020-02-03 14:16:46,680 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, username, email, `password`, create_time from user 
+2020-02-03 14:16:46,681 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-03 14:16:46,683 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 9
+2020-02-03 14:16:46,690 INFO (UserController.java:45)- UserController : [UserVO(id=1000, username=mcy, email=mcy@id.com, password=123456, createTime=Sun Jul 01 00:27:53 CST 2018), UserVO(id=1002, username=张三, email=zhangsan@qq.com, password=123457, createTime=Mon Jul 09 00:57:31 CST 2018), UserVO(id=1004, username=老王, email=lw@id.com, password=123456, createTime=Sun Dec 01 03:50:10 CST 2019), UserVO(id=1006, username=老王3, email=lw8888@iot.com, password=123456, createTime=Mon Dec 23 00:44:10 CST 2019), UserVO(id=1008, username=王老虎, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:31:17 CST 2019), UserVO(id=1010, username=王老虎2, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:36:22 CST 2019), UserVO(id=1011, username=王老虎2, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:45:50 CST 2019), UserVO(id=1012, username=王老虎2, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:49:13 CST 2019), UserVO(id=1013, username=王老虎4, email=wlh@iot.com, password=123456, createTime=Mon Feb 03 19:49:47 CST 2020)]
+2020-02-03 14:35:09,557 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 15564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 14:35:09,557 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 14:35:09,557 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 14:35:10,171 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.646 seconds (JVM running for 1182.225)
+2020-02-03 14:35:24,205 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 15564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 14:35:24,205 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 14:35:24,205 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 14:37:52,047 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 15564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 14:37:52,047 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 14:37:52,047 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 14:37:54,105 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 15564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 14:37:54,106 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 14:37:54,106 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 14:37:54,818 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.764 seconds (JVM running for 1346.872)
+2020-02-03 14:40:56,708 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 15564 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 14:40:56,708 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 14:40:56,708 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 14:40:57,275 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.612 seconds (JVM running for 1529.33)
+2020-02-03 14:41:21,059 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 12412 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 14:41:21,062 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 14:41:21,062 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 14:41:23,197 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 2.672 seconds (JVM running for 4.027)
+2020-02-03 14:41:27,940 INFO (UserController.java:33)- UserController : 1002
+2020-02-03 14:41:28,074 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, username, email, `password`, create_time from user where id = ? 
+2020-02-03 14:41:28,091 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1002(Integer)
+2020-02-03 14:41:28,109 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-03 14:41:28,163 INFO (UserController.java:36)- UserController : UserVO(id=1002, username=张三, email=zhangsan@qq.com, password=123457, createTime=Mon Jul 09 00:57:31 CST 2018)
+2020-02-03 15:04:04,649 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 12412 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 15:04:04,650 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 15:04:04,650 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 15:04:05,368 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.748 seconds (JVM running for 1366.198)
+2020-02-03 15:04:07,319 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 12412 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 15:04:07,320 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 15:04:07,320 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 15:04:07,829 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.536 seconds (JVM running for 1368.659)
+2020-02-03 15:04:09,410 INFO (StartupInfoLogger.java:55)- Starting DemoApplicationTests on DESKTOP-QFRC53Q with PID 12104 (started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 15:04:09,411 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 15:04:09,411 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 15:04:11,329 INFO (StartupInfoLogger.java:61)- Started DemoApplicationTests in 2.292 seconds (JVM running for 3.217)
+2020-02-03 16:20:01,503 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 22384 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 16:20:01,506 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 16:20:01,506 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 16:20:03,163 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 2.215 seconds (JVM running for 3.447)
+2020-02-03 16:20:14,511 INFO (UserController.java:33)- UserController : 1002
+2020-02-03 16:20:14,630 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, username, email, `password`, create_time from user where id = ? 
+2020-02-03 16:20:14,649 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1002(Integer)
+2020-02-03 16:20:14,665 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-03 16:20:14,717 INFO (UserController.java:36)- UserController : UserVO(id=1002, username=张三, email=zhangsan@qq.com, password=123457, createTime=Mon Jul 09 00:57:31 CST 2018)
+2020-02-03 16:21:55,115 INFO (StartupInfoLogger.java:55)- Starting DemoApplicationTests on DESKTOP-QFRC53Q with PID 21352 (started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 16:21:55,116 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 16:21:55,117 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 16:21:57,410 INFO (StartupInfoLogger.java:61)- Started DemoApplicationTests in 2.747 seconds (JVM running for 4.244)
+2020-02-03 17:17:16,809 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 22384 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 17:17:16,810 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 17:17:16,810 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 17:17:17,314 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.537 seconds (JVM running for 3437.598)
+2020-02-03 17:17:39,312 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 22384 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 17:17:39,313 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 17:17:39,313 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 17:17:39,743 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.458 seconds (JVM running for 3460.028)
+2020-02-03 17:17:52,271 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 12444 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 17:17:52,274 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 17:17:52,274 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 17:17:54,065 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 2.372 seconds (JVM running for 3.618)
+2020-02-03 17:18:01,172 INFO (UserController.java:33)- UserController : 1002
+2020-02-03 17:18:26,078 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 12444 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 17:18:26,078 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 17:18:26,078 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 17:18:26,578 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.528 seconds (JVM running for 36.131)
+2020-02-03 17:18:31,328 INFO (UserController.java:33)- UserController : 1002
+2020-02-03 17:18:31,355 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, username, email, `password`, create_time from user where id = ? 
+2020-02-03 17:18:31,374 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1002(Integer)
+2020-02-03 17:18:31,393 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-03 17:18:31,445 INFO (UserController.java:36)- UserController : UserVO(id=1002, username=张三, email=zhangsan@qq.com, password=123457, createTime=Mon Jul 09 00:57:31 CST 2018)
+2020-02-03 17:21:13,806 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 12444 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 17:21:13,806 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 17:21:13,806 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 17:21:35,719 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 12444 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 17:21:35,719 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 17:21:35,719 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 17:29:49,235 INFO (StartupInfoLogger.java:55)- Starting DemoApplication on DESKTOP-QFRC53Q with PID 12444 (D:\Works\SpringBootProjects\demo\target\classes started by mcy in D:\Works\SpringBootProjects\demo)
+2020-02-03 17:29:49,236 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-03 17:29:49,236 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-02-03 17:29:49,878 INFO (StartupInfoLogger.java:61)- Started DemoApplication in 0.67 seconds (JVM running for 719.43)
+2020-02-03 17:30:09,817 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, username, email, `password`, create_time from user 
+2020-02-03 17:30:09,818 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-03 17:30:09,821 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 9
+2020-02-03 17:30:09,835 INFO (UserController.java:46)- UserController : [UserVO(id=1000, username=mcy, email=mcy@id.com, password=123456, createTime=Sun Jul 01 00:27:53 CST 2018), UserVO(id=1002, username=张三, email=zhangsan@qq.com, password=123457, createTime=Mon Jul 09 00:57:31 CST 2018), UserVO(id=1004, username=老王, email=lw@id.com, password=123456, createTime=Sun Dec 01 03:50:10 CST 2019), UserVO(id=1006, username=老王3, email=lw8888@iot.com, password=123456, createTime=Mon Dec 23 00:44:10 CST 2019), UserVO(id=1008, username=王老虎, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:31:17 CST 2019), UserVO(id=1010, username=王老虎2, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:36:22 CST 2019), UserVO(id=1011, username=王老虎2, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:45:50 CST 2019), UserVO(id=1012, username=王老虎2, email=wlh@iot.com, password=123456, createTime=Mon Dec 23 01:49:13 CST 2019), UserVO(id=1013, username=王老虎4, email=wlh@iot.com, password=123456, createTime=Mon Feb 03 19:49:47 CST 2020)]

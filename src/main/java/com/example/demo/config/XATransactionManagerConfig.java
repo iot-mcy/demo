@@ -2,7 +2,6 @@ package com.example.demo.config;
 
 import com.atomikos.icatch.jta.UserTransactionImp;
 import com.atomikos.icatch.jta.UserTransactionManager;
-import com.mysql.cj.jdbc.MysqlXADataSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.DependsOn;
@@ -19,7 +18,6 @@ public class XATransactionManagerConfig {
 
     @Bean(name = "userTransaction")
     public UserTransaction userTransaction() throws Throwable {
-//        MysqlXADataSource
         UserTransactionImp userTransactionImp = new UserTransactionImp();
         userTransactionImp.setTransactionTimeout(10000);
         return userTransactionImp;

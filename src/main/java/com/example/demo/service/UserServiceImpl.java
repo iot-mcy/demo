@@ -21,7 +21,7 @@ public class UserServiceImpl implements UserService {
     private final String TAG = UserServiceImpl.class.getSimpleName();
 
     @Resource
-    private Mapper mapper;
+    private Mapper dozerMapper;
 
     @Resource
     private UserMapper userMapper;
@@ -33,13 +33,16 @@ public class UserServiceImpl implements UserService {
     @Transactional
     public UserVO saveUser(UserVO userVO) {
         log.info(TAG, userVO);
-        User user = mapper.map(userVO, User.class);
+        User user = dozerMapper.map(userVO, User.class);
         int i = userMapper.insertSelective(user);
 
-        Items items = new Items();
-        items.setName("苹果4");
-        items.setPrice(8.99);
-        int i2 = itemsMapper.insertSelective(items);
+        //测试分布式事务
+//        Items items = new Items();
+//        items.setName("苹果11");
+//        items.setPrice(9.99);
+//        int i2 = itemsMapper.insertSelective(items);
+
+//        int a = 1/0;//异常抛出自动回滚
 
         if (i == 1) {
             return getUser(user.getId());
@@ -54,7 +57,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public int updateUser(UserVO userVO) {
-        User user = mapper.map(userVO, User.class);
+        User user = dozerMapper.map(userVO, User.class);
         return userMapper.updateByPrimaryKeySelective(user);
     }
 
@@ -62,7 +65,7 @@ public class UserServiceImpl implements UserService {
     public UserVO getUser(int id) {
         User user = userMapper.selectByPrimaryKey(id);
         if (user != null) {
-            return mapper.map(user, UserVO.class);
+            return dozerMapper.map(user, UserVO.class);
         } else {
             return null;
         }
